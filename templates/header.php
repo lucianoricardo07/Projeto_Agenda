@@ -9,5 +9,5 @@
                 <a class="sair btn" href="logout.php">Sair</a>
             </div>
         <?php endif; ?>
-    </div>kj
+    </div>
 </nav>
