@@ -1,0 +1,98 @@
+
+/* Estilos gerais */
+html, body {
+    background-color: #eee;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    text-align: start;
+}
+
+.wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Conteúdo da página para ocupar o espaço necessário */
+.content {
+    flex: 1;
+    padding: 0px;
+}
+
+/* Footer fixado ao final */
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    margin: 16px 0;
+}
+
+.form-login{
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+.usuario-nome {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.entrar{
+    background-color: green;
+    font-size: 17px;
+    color: white;
+}
+
+.sair{
+    background-color: red;
+    font-size: 17px;
+    color: white;
+}
+
+.cadtarefa{
+    background-color: rgba(2, 70, 32, 0.886);
+    font-size: 17px;
+    color: white;
+}
+
+.editar{
+    background-color: #04d4c3;
+    font-size: 17px;
+    color: white;
+}
+
+.excluir{
+    background-color: orange;
+    font-size: 17px;
+    color: white;
+}
+
+.limpar{
+    background-color: grey;
+    font-size: 17px;
+    color: white;
+}
+
+.cadastrar{
+    background-color: blue;
+    font-size: 17px;
+    color: white;
+}
+
+.voltar{
+    background-color: black;
+    font-size: 17px;
+    color: white;
+}
